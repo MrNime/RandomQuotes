@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.css" integrity="sha256-KGzlh3GrZQG1IDswBxp0OXmxeb7h0WezxI8tXeGr3yc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" integrity="sha256-00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src=main.js></script>
+    <title>FCC Quote Generator</title>
+</head>
+
+<body>
+
+    <div class="container" id="wrapper">
+        <div class="card" id="quoteCard">
+            <div class="card-content animated" id="quoteText">
+                <p class="title has-text-centered" id="cardTitle">
+                    <span class="icon is-medium">
+                        <i class="fa fa-quote-left"></i>
+                    </span>
+                    <span id="quoteContent">
+                        <!--       the stupid content is wrapped in a "<p>" -->
+                    </span>
+                    <span class="icon is-medium">
+                        <i class="fa fa-quote-right"> </i>
+                    </span>
+                </p>
+                <p class="subtitle has-text-right" id="quoteTitle"></p>
+            </div>
+            <footer class="card-footer">
+                <p class="card-footer-item">
+                    <span>
+                        <a class="button is-primary is-inverted" id="tweetQuote" title="Tweet this quote!" href="" target="_blank">
+                            <span class="icon is-medium">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                            &nbsp;&nbsp;Tweet
+                        </a>
+                    </span>
+                </p>
+                <p class="card-footer-item">
+                    <span>
+                        <a class="button is-primary is-inverted" id="getQuoteButton">Another quote!</a>
+                    </span>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <hr>
+            <span class="text-muted">
+                <p>Coded by <a href="https://www.freecodecamp.com/MrNime" target="_blank">Nicky Meuleman</a>.</p>
+            </span>
+        </div>
+    </footer>
+
+</body>
+</html>
